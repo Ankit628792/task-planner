@@ -16,6 +16,29 @@
     "noImplicitAny": false,
     "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
-    "noFallthroughCasesInSwitch": false
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@user/*": [
+        "src/user/*"
+      ],
+      "@auth/*": [
+        "src/auth/*"
+      ],
+      "@role/*": [
+        "src/role/*"
+      ],
+      "@project/*": [
+        "src/project/*"
+      ],
+      "@task/*": [
+        "src/task/*"
+      ],
+      "@common/*": [
+        "src/common/*"
+      ],
+      "@database/*": [
+        "src/database/*"
+      ]
+    }
   }
 }
